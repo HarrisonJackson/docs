@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "AI Dev Life",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -18,7 +18,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:hi@aidev.life"
     }
   ],
   "topbarCtaButton": {
@@ -27,52 +27,116 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "Prompt Engineering",
       "url": "api-reference"
+    },
+    {
+      "name": "Chatbots and Agents",
+      "url": "api-reference"
+    },
+    {
+      "name": "Evals",
+      "url": "api-reference"
+    },
+    {
+      "name": "Diffusion",
+      "url": "api-reference"
+    },
+    {
+      "name": "Frameworks",
+      "url": "projects"
+    },
+    {
+      "name": "DIY Projects",
+      "url": "projects"
     }
   ],
+  "topAnchor": {
+    "name": "AI Dev Life"
+  },
+  "primaryTab": {
+    "name": "Natural Language"
+  },
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Skill Tree",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://aidev.life/skill-tree"
     },
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://aidev.life/community"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://aidev.life/blog"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
+      "pages": ["introduction", "quickstart", "development"]
+    },
+    {
+      "group": "Natural Language",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "essentials/NLP",
+        "essentials/transformer-models",
+        "essentials/using-transformers",
+        "essentials/training-models",
+        "essentials/fine-tuning-models",
+        "essentials/hosting-and-sharing-models"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Prompt Engineering",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "essentials/NLP",
+        "essentials/transformer-models",
+        "essentials/using-transformers",
+        "essentials/training-models",
+        "essentials/fine-tuning-models",
+        "essentials/hosting-and-sharing-models"
+      ]
+    },
+    {
+      "group": "Agents",
+      "pages": [
+        "essentials/NLP",
+        "essentials/transformer-models",
+        "essentials/using-transformers",
+        "essentials/training-models",
+        "essentials/fine-tuning-models",
+        "essentials/hosting-and-sharing-models"
+      ]
+    },
+    {
+      "group": "Diffusion",
+      "pages": [
+        "essentials/NLP",
+        "essentials/transformer-models",
+        "essentials/using-transformers",
+        "essentials/training-models",
+        "essentials/fine-tuning-models",
+        "essentials/hosting-and-sharing-models"
+      ]
+    },
+    {
+      "group": "Multi-Modal",
+      "pages": [
+        "essentials/NLP",
+        "essentials/transformer-models",
+        "essentials/using-transformers",
+        "essentials/training-models",
+        "essentials/fine-tuning-models",
+        "essentials/hosting-and-sharing-models"
       ]
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "pages": ["api-reference/introduction"]
     },
     {
       "group": "Endpoint Examples",
