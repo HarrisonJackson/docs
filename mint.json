@@ -28,27 +28,27 @@
   "tabs": [
     {
       "name": "Prompt Engineering",
-      "url": "api-reference"
+      "url": "prompt-engineering"
     },
     {
       "name": "Chatbots and Agents",
-      "url": "api-reference"
+      "url": "chatbots-and-agents"
     },
     {
       "name": "Evals",
-      "url": "api-reference"
+      "url": "evals"
     },
     {
       "name": "Diffusion",
-      "url": "api-reference"
+      "url": "diffusion"
     },
     {
       "name": "Frameworks",
-      "url": "projects"
+      "url": "frameworks"
     },
     {
       "name": "DIY Projects",
-      "url": "projects"
+      "url": "diy-projects"
     }
   ],
   "topAnchor": {
@@ -82,61 +82,64 @@
     {
       "group": "Natural Language",
       "pages": [
-        "essentials/NLP",
-        "essentials/transformer-models",
-        "essentials/using-transformers",
-        "essentials/training-models",
-        "essentials/fine-tuning-models",
-        "essentials/hosting-and-sharing-models"
+        "natural-language/NLP",
+        "natural-language/transformer-models",
+        "natural-language/using-transformers",
+        "natural-language/attention-layers",
+        "natural-language/training-models",
+        "natural-language/fine-tuning-models",
+        "natural-language/hosting-and-sharing-models"
       ]
     },
     {
-      "group": "Prompt Engineering",
+      "group": "Basics",
       "pages": [
-        "essentials/NLP",
-        "essentials/transformer-models",
-        "essentials/using-transformers",
-        "essentials/training-models",
-        "essentials/fine-tuning-models",
-        "essentials/hosting-and-sharing-models"
+        "prompt-engineering/introduction",
+        "prompt-engineering/prompting-with-chatgpt",
+        "prompt-engineering/prompt-engineering",
+        "prompt-engineering/giving-instructions",
+        "prompt-engineering/assigning-roles",
+        "prompt-engineering/showing-examples",
+        "prompt-engineering/prompt-structure"
       ]
     },
     {
-      "group": "Agents",
+      "group": "Basic Applications",
       "pages": [
-        "essentials/NLP",
-        "essentials/transformer-models",
-        "essentials/using-transformers",
-        "essentials/training-models",
-        "essentials/fine-tuning-models",
-        "essentials/hosting-and-sharing-models"
+        "prompt-engineering/prompting-with-chatgpt",
+        "prompt-engineering/prompt-engineering",
+        "prompt-engineering/giving-instructions",
+        "prompt-engineering/assigning-roles",
+        "prompt-engineering/showing-examples",
+        "prompt-engineering/prompt-structure"
       ]
+    },
+    {
+      "group": "Basic Applications",
+      "pages": [
+        "prompt-engineering/basic-applications/introduction",
+        "prompt-engineering/basic-applications/structuring-data"
+      ]
+    },
+    {
+      "group": "Chatbot Interfaces",
+      "pages": ["chatbots-and-agents/introduction"]
     },
     {
       "group": "Diffusion",
-      "pages": [
-        "essentials/NLP",
-        "essentials/transformer-models",
-        "essentials/using-transformers",
-        "essentials/training-models",
-        "essentials/fine-tuning-models",
-        "essentials/hosting-and-sharing-models"
-      ]
+      "pages": ["diffusion/introduction"]
     },
     {
-      "group": "Multi-Modal",
-      "pages": [
-        "essentials/NLP",
-        "essentials/transformer-models",
-        "essentials/using-transformers",
-        "essentials/training-models",
-        "essentials/fine-tuning-models",
-        "essentials/hosting-and-sharing-models"
-      ]
+      "group": "Evals",
+      "pages": ["evals/introduction"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "group": "DIY Projects",
+      "pages": ["diy-projects/introduction"]
+    },
+    {
+      "group": "Frameworks",
+      "pages": ["frameworks/introduction"]
     },
     {
       "group": "Endpoint Examples",
