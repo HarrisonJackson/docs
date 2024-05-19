@@ -2,28 +2,33 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "AI Dev Life",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/ai-dev-life-text.png",
+    "light": "/logo/ai-dev-life-text.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#4E527C",
+    "light": "#8F92D6",
+    "dark": "#252747",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#4E527C",
+      "to": "#8F92D6"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@aidev.life"
+      "name": "About Us",
+      "url": "https://aidev.life/about-us"
+    },
+    {
+      "name": "Blog",
+      "url": "https://aidev.life/blog"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Starter Kits",
+    "type": "link",
+    "url": "https://shop.aidev.life"
   },
   "tabs": [
     {
@@ -106,19 +111,36 @@
     {
       "group": "Basic Applications",
       "pages": [
-        "prompt-engineering/prompting-with-chatgpt",
-        "prompt-engineering/prompt-engineering",
-        "prompt-engineering/giving-instructions",
-        "prompt-engineering/assigning-roles",
-        "prompt-engineering/showing-examples",
-        "prompt-engineering/prompt-structure"
+        "prompt-engineering/basic-applications/structuring-data",
+        "prompt-engineering/basic-applications/writing-an-email"
       ]
     },
     {
-      "group": "Basic Applications",
+      "group": "Intermediate",
       "pages": [
-        "prompt-engineering/basic-applications/introduction",
-        "prompt-engineering/basic-applications/structuring-data"
+        "prompt-engineering/intermediate/chain-of-thought",
+        "prompt-engineering/intermediate/zero-shot-chain-of-thought"
+      ]
+    },
+    {
+      "group": "Applied Prompting",
+      "pages": [
+        "prompt-engineering/applied-prompting/chain-of-thought",
+        "prompt-engineering/applied-prompting/zero-shot-chain-of-thought"
+      ]
+    },
+    {
+      "group": "Advanced Applications",
+      "pages": [
+        "prompt-engineering/advanced-applications/chain-of-thought",
+        "prompt-engineering/advanced-applications/zero-shot-chain-of-thought"
+      ]
+    },
+    {
+      "group": "Special Topics",
+      "pages": [
+        "prompt-engineering/special-topics/chain-of-thought",
+        "prompt-engineering/special-topics/zero-shot-chain-of-thought"
       ]
     },
     {
@@ -151,8 +173,9 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/harrisonjackson",
+    "github": "https://github.com/harrisonjackson",
+    "linkedin": "https://www.linkedin.com/company/guapo-ai",
+    "website": "mailto:harrison@guapo.ai"
   }
 }
