@@ -95,6 +95,10 @@
       ]
     },
     {
+      "group": "Projects",
+      "pages": ["projects/introduction"]
+    },
+    {
       "group": "Building Blocks",
       "pages": [
         "projects/building-blocks/nlp-preprocessing-pipeline",
@@ -148,10 +152,12 @@
         "projects/ai-photo-editor",
         "projects/hosting-image-generation-inference-api",
         "projects/youtube-to-tiktok-clip-creator",
-        "projects/faceless-youtube-channel",
         "projects/ai-audio-transcriber",
         "projects/ai-video-transcriber",
-        "projects/text-to-speech"
+        "projects/text-to-speech",
+        "projects/twilio-phone-voice-agent",
+        "projects/twilio-sms-agent",
+        "projects/zoom-meeting-ai"
       ]
     },
     {
