@@ -32,6 +32,14 @@
   },
   "tabs": [
     {
+      "name": "Projects",
+      "url": "projects"
+    },
+    {
+      "name": "Models",
+      "url": "models"
+    },
+    {
       "name": "Prompt Engineering",
       "url": "prompt-engineering"
     },
@@ -40,27 +48,23 @@
       "url": "chatbots-and-agents"
     },
     {
+      "name": "RAG",
+      "url": "retrieval-augmented-generation"
+    },
+    {
       "name": "Evals",
       "url": "evals"
     },
     {
-      "name": "Diffusion",
-      "url": "diffusion"
-    },
-    {
-      "name": "Frameworks",
-      "url": "frameworks"
-    },
-    {
-      "name": "DIY Projects",
-      "url": "diy-projects"
+      "name": "More",
+      "url": "more"
     }
   ],
   "topAnchor": {
     "name": "AI Dev Life"
   },
   "primaryTab": {
-    "name": "Natural Language"
+    "name": "Start Here"
   },
   "anchors": [
     {
@@ -81,9 +85,121 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Overview",
+      "pages": [
+        "Introduction",
+        "NLP & Models",
+        "Embeddings",
+        "LLMs",
+        "Multimodal"
+      ]
     },
+    {
+      "group": "Building Blocks",
+      "pages": [
+        "projects/building-blocks/nlp-preprocessing-pipeline",
+        "projects/building-blocks/data-augmentation-tool",
+        "projects/building-blocks/api-integration-framework",
+        "projects/building-blocks/model-deployment-pipeline",
+        "projects/building-blocks/real-time-data-streaming",
+        "projects/building-blocks/automated-testing-framework",
+        "projects/building-blocks/containerized-development-environment",
+        "projects/building-blocks/authentication-and-authorization",
+        "projects/building-blocks/logging-and-monitoring-system",
+        "projects/building-blocks/ci-cd-pipeline",
+        "projects/building-blocks/scalable-database-setup",
+        "projects/building-blocks/cloud-infrastructure-setup"
+      ]
+    },
+    {
+      "group": "NLP and Text Processing",
+      "pages": [
+        "projects/text-summarization",
+        "projects/youtube-transcript-summarization",
+        "projects/semantic-search-engine",
+        "projects/content-creator",
+        "projects/knowledge-base-qa-chatbot",
+        "projects/langchain-qa-over-sql",
+        "projects/langchain-email-parser",
+        "projects/langchain-qa-over-graphdb"
+      ]
+    },
+    {
+      "group": "Chatbots and Agents",
+      "pages": [
+        "projects/customer-support-chatbot",
+        "projects/task-automation-agent",
+        "projects/slack-ai-assistant",
+        "projects/personal-finance-assistant",
+        "projects/llm-agent-with-tool-and-memory",
+        "projects/qa-chatbot-with-user-feedback-thumbs-button",
+        "projects/voice-assistant",
+        "projects/ai-medical-diagnosis-chatbot",
+        "projects/multi-agent-supervisor-chatbot"
+      ]
+    },
+    {
+      "group": "Image, Video, and Audio",
+      "pages": [
+        "projects/image-captioning",
+        "projects/realtime-image-detection-app",
+        "projects/ai-headshot-generator",
+        "projects/ai-emoji-generator",
+        "projects/ai-photo-editor",
+        "projects/hosting-image-generation-inference-api",
+        "projects/youtube-to-tiktok-clip-creator",
+        "projects/faceless-youtube-channel",
+        "projects/ai-audio-transcriber",
+        "projects/ai-video-transcriber",
+        "projects/text-to-speech"
+      ]
+    },
+    {
+      "group": "Coding Agents",
+      "pages": [
+        "projects/code-writing-agent",
+        "projects/v0-like-tailwind-ui-generator"
+      ]
+    },
+    {
+      "group": "Web Browsing Agents",
+      "pages": ["projects/web-browser-automation"]
+    },
+    {
+      "group": "Custom Tools and Applications",
+      "pages": [
+        "projects/product-roadmap-generator",
+        "projects/model-comparison-dashboard",
+        "projects/recommendation-engine",
+        "projects/ai-powered-tutor",
+        "projects/ai-trip-planner",
+        "projects/customer-proposal-generator",
+        "projects/niche-newsletter-generator",
+        "projects/customer-voice-reddit-scraper-and-language-emulator"
+      ]
+    },
+    {
+      "group": "AI Gaming",
+      "pages": [
+        "projects/ttrpg-character-generator",
+        "projects/ttrpg-campaign-generator",
+        "projects/ttrpg-dm-chatbot",
+        "projects/ai-text-based-adventure-game",
+        "projects/multi-chatbot-simulation",
+        "projects/ai-friend",
+        "projects/ai-npc"
+      ]
+    },
+    {
+      "group": "Advanced Applications and Use Cases",
+      "pages": [
+        "projects/fraud-detection",
+        "projects/ai-disaster-response-coordinator",
+        "projects/targeted-marketing-campaign",
+        "projects/llm-as-judge-evals-braintrust"
+      ]
+    },
+
     {
       "group": "Natural Language",
       "pages": [
