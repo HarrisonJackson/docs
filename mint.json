@@ -1,10 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "AI Dev Life",
-  "logo": {
-    "dark": "/logo/ai-dev-life-text.png",
-    "light": "/logo/ai-dev-life-text.png"
-  },
+  "name": "Guapo AI - Build AI Apps",
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#4E527C",
@@ -82,7 +78,7 @@
     {
       "group": "Start Here",
       "pages": [
-        "Introduction",
+        "introduction",
         "community/ai-product-reviews",
         "community/basic-ai-concepts",
         "community/nerdlore-and-ai-vocab",
@@ -207,13 +203,13 @@
     {
       "group": "Natural Language",
       "pages": [
-        "natural-language/NLP",
-        "natural-language/transformer-models",
-        "natural-language/using-transformers",
-        "natural-language/attention-layers",
-        "natural-language/training-models",
-        "natural-language/fine-tuning-models",
-        "natural-language/hosting-and-sharing-models"
+        "more/natural-language/NLP",
+        "more/natural-language/transformer-models",
+        "more/natural-language/using-transformers",
+        "more/natural-language/attention-layers",
+        "more/natural-language/training-models",
+        "more/natural-language/fine-tuning-models",
+        "more/natural-language/hosting-and-sharing-models"
       ]
     },
     {
@@ -245,22 +241,33 @@
     {
       "group": "Applied Prompting",
       "pages": [
-        "prompt-engineering/applied-prompting/chain-of-thought",
-        "prompt-engineering/applied-prompting/zero-shot-chain-of-thought"
+        "prompt-engineering/applied-prompting/introduction",
+        "prompt-engineering/applied-prompting/multiple-choice-questions",
+        "prompt-engineering/applied-prompting/solve-discussion-questions",
+        "prompt-engineering/applied-prompting/chatbot-and-knowledge-base"
       ]
     },
     {
       "group": "Advanced Applications",
       "pages": [
-        "prompt-engineering/advanced-applications/chain-of-thought",
-        "prompt-engineering/advanced-applications/zero-shot-chain-of-thought"
+        "prompt-engineering/advanced-applications/introduction",
+        "prompt-engineering/advanced-applications/llms-using-tools",
+        "prompt-engineering/advanced-applications/llms-that-reason-and-act",
+        "prompt-engineering/advanced-applications/code-as-reasoning"
       ]
     },
     {
       "group": "Special Topics",
       "pages": [
-        "prompt-engineering/special-topics/chain-of-thought",
-        "prompt-engineering/special-topics/zero-shot-chain-of-thought"
+        "prompt-engineering/special-topics/reliability",
+        "prompt-engineering/special-topics/image-prompting",
+        "prompt-engineering/special-topics/prompt-hacking",
+        "prompt-engineering/special-topics/prompt-engineering-tools",
+        "prompt-engineering/special-topics/prompt-tuning",
+        "prompt-engineering/special-topics/defensive-measures",
+        "prompt-engineering/special-topics/indirect-prompt-injection",
+        "prompt-engineering/special-topics/jailbreaking",
+        "prompt-engineering/special-topics/prompt-injection"
       ]
     },
     {
@@ -269,27 +276,11 @@
     },
     {
       "group": "Diffusion",
-      "pages": ["diffusion/introduction"]
+      "pages": ["more/diffusion/introduction"]
     },
     {
       "group": "Evals",
       "pages": ["evals/introduction"]
-    },
-    {
-      "group": "DIY Projects",
-      "pages": ["diy-projects/introduction"]
-    },
-    {
-      "group": "Frameworks",
-      "pages": ["frameworks/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
   "footerSocials": {
