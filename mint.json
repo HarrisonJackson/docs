@@ -36,10 +36,6 @@
       "url": "projects"
     },
     {
-      "name": "Models",
-      "url": "models"
-    },
-    {
       "name": "Prompt Engineering",
       "url": "prompt-engineering"
     },
@@ -85,13 +81,14 @@
   ],
   "navigation": [
     {
-      "group": "Overview",
+      "group": "Start Here",
       "pages": [
         "Introduction",
-        "NLP & Models",
-        "Embeddings",
-        "LLMs",
-        "Multimodal"
+        "community/ai-product-reviews",
+        "community/basic-ai-concepts",
+        "community/nerdlore-and-ai-vocab",
+        "community/accounts-to-follow",
+        "community/bookmarks"
       ]
     },
     {
@@ -164,12 +161,15 @@
       "group": "Coding Agents",
       "pages": [
         "projects/code-writing-agent",
-        "projects/v0-like-tailwind-ui-generator"
+        "projects/v0-like-tailwind-ui-generator",
+        "projects/code-agent-pandas",
+        "projects/code-agent-file-upload-processing",
+        "projects/code-agent-file-generation"
       ]
     },
     {
       "group": "Web Browsing Agents",
-      "pages": ["projects/web-browser-automation"]
+      "pages": ["projects/web-browser-automation", "projects/weekly-newsletter"]
     },
     {
       "group": "Custom Tools and Applications",
@@ -205,7 +205,6 @@
         "projects/llm-as-judge-evals-braintrust"
       ]
     },
-
     {
       "group": "Natural Language",
       "pages": [
