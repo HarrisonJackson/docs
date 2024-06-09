@@ -261,7 +261,6 @@
       "pages": [
         "prompt-engineering/special-topics/reliability",
         "prompt-engineering/special-topics/image-prompting",
-        "prompt-engineering/special-topics/prompt-hacking",
         "prompt-engineering/special-topics/prompt-engineering-tools",
         "prompt-engineering/special-topics/prompt-tuning",
         "prompt-engineering/special-topics/defensive-measures",
